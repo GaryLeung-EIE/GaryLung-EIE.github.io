@@ -1,0 +1,119 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", Times, serif;}
+
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.2;
+}
+
+/*Make text centre*/
+.center {
+  text-align: center;
+}
+.right{
+  text-align:right;
+}
+/*top pic text*/
+.centered { 
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top{
+  font-size: 40px;
+  color:#f5ffdc;
+  background-color: rgb(46, 46, 46);
+  border: 5px solid rgb(46, 46, 46);
+}
+
+.profile {
+  display: block;
+ 
+  width: 300PX;
+  height: 300PX;
+ 
+  border-radius: 50%;
+
+
+
+
+}
+.box{
+  box-shadow: 10px 10px 5px grey;
+  padding-bottom: 20px;
+}
+
+.centeredprofile { 
+margin-left: 20%;
+  
+}
+.padding{
+  margin:10px 2% 10px ;
+}
+p::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+}
+.displaynone{
+
+}
+table, th, td {
+
+  font-size: large;
+}
+/*top pic text*/
+.contact { 
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: lighter;
+}
+.bottom{
+  font-size: 20px;
+  color:#ffffff;
+  background-color: rgba(46, 46, 46,0.4);
+ 
+
+}
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+@media (min-width: 100px) {  
+  .top {font-size: 15px;}
+  div.contact {font-size: 8px;}
+}
+@media (min-width: 100px) {  
+  .top {font-size: 15px;}
+  div.contact {font-size: 15px;}
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 450px) {  
+  .top {font-size: 22px;}
+  div.contact {font-size: 15px;}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+  .top {font-size: 22px;}
+  div.contact {font-size: 40px;}
+  .displaynone{display: none;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .top {font-size: 27px;}
+  div.contact {font-size: 40px;}
+  .displaynone{display: none;}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .top {font-size: 40px;}
+  div.contact {font-size: 40px;}
+  .displaynone{display: none;}
+}
+​
